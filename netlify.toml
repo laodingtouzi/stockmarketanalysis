@@ -1,0 +1,13 @@
+# Netlify 配置 - 子站点部署
+# 用于 stockmarketanalysis 子站点
+
+# 确保所有资源路径都正确工作
+[build]
+  publish = "/"
+
+# 强制 HTTPS
+[[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true
