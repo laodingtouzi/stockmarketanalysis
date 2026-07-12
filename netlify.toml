@@ -3,7 +3,7 @@
 
 # 确保所有资源路径都正确工作
 [build]
-  publish = "/"
+  publish = "stockmarketanalysis/"
 
 # 强制 HTTPS
 [[redirects]]
@@ -11,5 +11,3 @@
   to = "https://:splat"
   status = 301
   force = true
-# 部署时间
-# Sun Jul 12 11:44:03 HKT 2026
