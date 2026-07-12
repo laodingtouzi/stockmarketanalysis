@@ -11,3 +11,5 @@
   to = "https://:splat"
   status = 301
   force = true
+# 部署时间
+# Sun Jul 12 11:44:03 HKT 2026
