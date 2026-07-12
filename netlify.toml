@@ -3,7 +3,7 @@
 
 # 确保所有资源路径都正确工作
 [build]
-  publish = "stockmarketanalysis/"
+  publish = "/"
 
 # 强制 HTTPS
 [[redirects]]
